@@ -4,6 +4,7 @@ import 'Geolocator.dart';
 import 'dart:async';
 
 // 이승연
+// 아야어여오요
 // sanghak
 //SH Test 2
 void main() {
