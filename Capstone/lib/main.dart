@@ -4,7 +4,7 @@ import 'Geolocator.dart';
 import 'dart:async';
 
 // 이승연
-// 가나다라마바사
+// 가나다라마바사아
 // sanghak
 //SH Test 2
 // tseofa;okfas;ofasnef
