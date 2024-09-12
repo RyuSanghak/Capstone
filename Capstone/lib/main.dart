@@ -3,9 +3,12 @@ import 'package:geolocator/geolocator.dart';
 import 'Geolocator.dart';
 import 'dart:async';
 
+// 이승연
 void main() {
   runApp(MyApp());
 }
+
+//SH Test 2
 
 class MyApp extends StatelessWidget {
   @override
