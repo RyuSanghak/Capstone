@@ -4,11 +4,13 @@ import 'Geolocator.dart';
 import 'dart:async';
 
 // 이승연
+// sanghak
+//SH Test 2
 void main() {
   runApp(MyApp());
 }
 
-//SH Test 2
+
 
 class MyApp extends StatelessWidget {
   @override
@@ -45,7 +47,7 @@ class _MainPageState extends State<MainPage> {
   String locationMessage = 'Location not available';
   final GeolocatorService _geolocatorService = GeolocatorService(); // Create an instance GeolocatorService, GPS
   Timer? _timer;
-// sanghak
+
   @override
   void initState() {
     // TODO: implement initState
