@@ -4,8 +4,11 @@ import 'Geolocator.dart';
 import 'dart:async';
 
 // 이승연
+// 가나다라마바사아
 // sanghak
 //SH Test 2
+// sryusryusryusryusryusryu
+// tseofa;okfas;ofasnef
 void main() {
   runApp(MyApp());
 }
