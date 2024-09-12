@@ -45,7 +45,7 @@ class _MainPageState extends State<MainPage> {
   String locationMessage = 'Location not available';
   final GeolocatorService _geolocatorService = GeolocatorService(); // Create an instance GeolocatorService, GPS
   Timer? _timer;
-
+// sanghak
   @override
   void initState() {
     // TODO: implement initState
