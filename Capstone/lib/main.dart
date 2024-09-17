@@ -1,7 +1,9 @@
+import 'package:capstone/screens/splash.dart';
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'Geolocator.dart';
 import 'dart:async';
+
 
 // 이승연
 // 가나다라마바사아
@@ -13,8 +15,6 @@ void main() {
   runApp(MyApp());
 }
 
-
-
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MainPage(), // App Launching Page
+      home: SplashScreen(), // App Launching Page, prev - home: MainPage(),
     );
   }
 }
