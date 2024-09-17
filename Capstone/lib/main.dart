@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'Geolocator.dart';
-import 'SearchPage.dart';
 import 'dart:async';
 
-
+// 이승연
+// 가나다라마바사아
+// sanghak
+//SH Test 2
+// sryusryusryusryusryusryu
+// tseofa;okfas;ofasnef
 void main() {
   runApp(MyApp());
 }
@@ -19,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SearchPage(), // App Launching Page
+      home: MainPage(), // App Launching Page
     );
   }
 }
