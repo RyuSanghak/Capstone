@@ -1,6 +1,7 @@
 import 'package:capstone/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'SearchPage.dart';
 
 //need void statement?
 
@@ -20,7 +21,7 @@ class _SplashScreenState extends State<SplashScreen>
 
     Future.delayed(Duration(seconds: 3), () {
       Navigator.of(context).pushReplacement(MaterialPageRoute(
-          builder: (_) => const HomeScreen(), //Homescreen
+          builder: (_) => SearchPage(), //Homescreen
       ));
     });
 
